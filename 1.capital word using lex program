@@ -15,7 +15,7 @@ yylex();
 OUTPUT:
 E: compiler>set path=C:\Program Files (x86)\gnuwin32\bin
 E:\compiler>flex capitalword. . txt 
-E:\compiler>set path=C: \MinGW\bi 
+E:\compiler>set path=C: \MinGW\bin 
 E:\compiler>gcc lex.yy.c 
 E:\compiler>a 
 enter the string:G0OD Morning HELLO 
