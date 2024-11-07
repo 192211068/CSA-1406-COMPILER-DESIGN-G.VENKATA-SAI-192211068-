@@ -30,6 +30,6 @@ E:\compiler>flex numbersandwords.L.txt
 E:\compiler>set path=C: \MinGW\bin 
 E:\compiler>gcc lex.yy.c. 
 E:\compiler>a 
-hi hello 1 2 3
+hi 1 2 3 hello
 Words= hi hello
 Numbers= 1 2 3
