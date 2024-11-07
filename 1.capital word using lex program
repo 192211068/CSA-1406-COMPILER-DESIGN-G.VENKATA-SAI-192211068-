@@ -1,7 +1,7 @@
 %{
 %}
 %%
-[A-Z]+ {printf("%s\n",yytext);}
+[A-Z]+ {printf("capital word:%s\n",yytext);}
 [A-Z][a-zA-Z]* ;
 . ;
 %%
@@ -14,9 +14,10 @@ yylex();
 
 OUTPUT:
 E: compiler>set path=C:\Program Files (x86)\gnuwin32\bin
-E:\compiler>flex capitalword. . txt 
+E:\compiler>flex capitalword. l. txt 
 E:\compiler>set path=C: \MinGW\bin 
 E:\compiler>gcc lex.yy.c 
 E:\compiler>a 
-enter the string:G0OD Morning HELLO 
-GOOD HELLO
+enter the string:Hello WORLD EXAMPLE 
+capital word: WORLD
+capital word: EXAMPLE
