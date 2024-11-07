@@ -17,7 +17,7 @@ E:\compiler>flex digitcheck.l. txt
 E:\compiler>set path=C: \MinGw\bin
 E:\compiler>gcc lex.yy.c
 E:\compiler>a
-enter the number:43
+enter the number:42357
 digit
-a
+ABC
 not a digit
